@@ -185,6 +185,11 @@
 @media screen and (max-width: 768px) {
   .start-ad {
     padding: 40px 0px;
+    .primary-button {
+      max-width: 340px;
+      min-height: 56px;
+      border-radius: 7px;
+    }
   }
   .start-ad h2 {
     font-size: 35px;
