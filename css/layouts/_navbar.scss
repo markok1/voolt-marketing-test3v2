@@ -21,14 +21,15 @@
 @media screen and (max-width: 650px) {
   .navbar {
     .primary-button {
-      font-size: 12px;
-      min-height: 30px;
-      max-width: 177px;
+      font-size: 14px;
+      min-height: 40px;
+      max-width: 250px;
+      width: 100%;
       border-radius: 4px;
     }
     .primary-button--with-unset {
-      padding-left: 15px;
-      padding-right: 15px;
+      padding-left: 25px;
+      padding-right: 25px;
       width: unset;
     }
   }
@@ -38,7 +39,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 440px) {
   .navbar {
     padding: 11px 0px;
     .logo {

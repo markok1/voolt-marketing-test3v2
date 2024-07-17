@@ -651,14 +651,15 @@ h2 {
 }
 @media screen and (max-width: 650px) {
   .navbar .primary-button {
-    font-size: 12px;
-    min-height: 30px;
-    max-width: 177px;
+    font-size: 14px;
+    min-height: 40px;
+    max-width: 250px;
+    width: 100%;
     border-radius: 4px;
   }
   .navbar .primary-button--with-unset {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
     width: unset;
   }
   .nav-buttons {
@@ -666,7 +667,7 @@ h2 {
     gap: 5px;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 440px) {
   .navbar {
     padding: 11px 0px;
   }
@@ -735,7 +736,7 @@ h2 {
 }
 @media screen and (max-width: 768px) {
   .hero-top {
-    padding: 10px 0px 20px 0px;
+    padding: 10px 0px 10px 0px;
     max-height: 92px;
   }
   .hero-top .checkmark {
@@ -936,8 +937,8 @@ h2 {
   }
   .hero .primary-button {
     font-size: 16px !important;
-    max-width: 216px;
-    min-height: 35px;
+    max-width: 270px;
+    min-height: 40px;
     border-radius: 7px;
     padding: 0px;
   }
@@ -1084,6 +1085,11 @@ h2 {
     padding-right: 18px;
     margin-left: 3px;
     margin-right: 3px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .made-for-service {
+    display: none;
   }
 }
 .start-ad {

@@ -61,3 +61,8 @@
     margin-right: 3px;
   }
 }
+@media screen and (max-width: 450px) {
+  .made-for-service{
+    display: none;
+  }
+}
