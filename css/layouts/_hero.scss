@@ -39,13 +39,18 @@
 }
 
 .hero-left {
-  max-width: calc(50% - 10px);
+  max-width: calc(50% - 5px);
   margin-left: auto;
   h1 {
     color: #f7f7ff;
     display: inline-block;
-    max-width: 546px;
+    max-width: 670px;
     padding-top: 10px;
+    div {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
   }
   span {
     display: inline-flex;
@@ -122,7 +127,11 @@
     }
   }
 }
-
+@media screen and (max-width: 1250px) {
+  .hero-left h1 {
+    font-size: 45px;
+  }
+}
 @media screen and (max-width: 1024px) {
   .hero {
     min-height: unset;
@@ -133,21 +142,20 @@
       font-size: 33px;
     }
   }
-  .hero-left .google-ads-span img {
-    max-width: 30px;
-  }
-  .hero-left .meta-span img {
-    max-width: 30px;
-  }
   .hero-left .subtitle {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
   }
   .hero-left {
+    span:first-child {
+      img {
+        max-width: 130px;
+      }
+    }
     span {
       img {
-        max-width: 30px;
+        max-width: 155px;
       }
     }
     .primary-button {
@@ -198,10 +206,15 @@
       }
     }
   }
-
 }
 @media screen and (max-width: 375px) {
   .hero-left .primary-button {
     font-size: 17px;
+  }
+  .hero-left h1 {
+    font-size: 25px;
+  }
+  .hero-left span img {
+    max-width: 100px !important;
   }
 }
